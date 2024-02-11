@@ -26,7 +26,7 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0px;
 }
 
@@ -75,8 +75,4 @@ body {
     #noButton {
         left: 50px; /* Adjust this value as needed */
     }
-}
-
-#back-btn {
-    text-decoration: none;
 }
