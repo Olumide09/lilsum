@@ -4,14 +4,15 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #F8C8DC;
+    max-width: 100vw; /* Ensures content fits screen size */
+    overflow-x: hidden; /* Hides horizontal overflow */
 }
 
 /* Position the "No" button absolutely within body */
 #noButton {
     position: absolute;
     margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
+    transition: 0.5s; /* Smooth movement */
 }
 
 #yesButton {
@@ -36,8 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
-    /* optional: adds some space between the buttons */
+    margin-left: 20px; /* optional: adds some space between the buttons */
 }
 
 .btn {

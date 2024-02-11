@@ -10,8 +10,7 @@ body {
 #noButton {
     position: absolute;
     margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
+    transition: 0.5s; /* Smooth movement */
 }
 
 #yesButton {
@@ -46,8 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
-    /* optional: adds some space between the buttons */
+    margin-left: 20px; /* optional: adds some space between the buttons */
 }
 
 .btn {
@@ -77,4 +75,28 @@ body {
 .btn a {
     text-decoration: none;
     color: #FAF9F6;
+}
+
+@media only screen and (max-width: 600px) {
+    #noButton {
+        left: 10px; /* Adjust as needed */
+        margin-left: 0; /* Reset margin-left */
+    }
+
+    #yesButton {
+        right: 10px; /* Adjust as needed */
+        margin-right: 0; /* Reset margin-right */
+    }
+
+    .header_text {
+        font-size: 30px; /* Adjust as needed */
+    }
+
+    .text {
+        font-size: 20px; /* Adjust as needed */
+    }
+
+    .buttons {
+        margin-left: 0; /* Reset margin-left */
+    }
 }
