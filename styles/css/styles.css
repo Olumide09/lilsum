@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F8C8DC;
+    background-color: #D4E7C5;
     max-width: 100vw; /* Ensures content fits screen size */
     overflow-x: hidden; /* Hides horizontal overflow */
 }
